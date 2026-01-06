@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <title>Warm Whisk</title> <!-- Title of the Website -->
+    <link rel="stylesheet" href="multi-device.css"> <!-- Link going to the CSS file -->
+    <script src="multi-device.js" defer></script> <!-- Link going to the JavaScript file -->
+</head>
+<body>
+    <header>
+        <h1> Warm Whisk </h1> <!-- Heading of the Website -->
+        <div class="search"> <!-- Search Bar -->
+            <input type="text" id="searchInput" placeholder="Search for desserts..."> <!-- Input for search-->
+            <button id="searchButton">Search</button> <!-- Button for search-->
+        </div>
+    </header>
+    <main>
+        <!-- Images for the slides-->
+        <div class="img">
+            <div class="dessert">
+                <img src="dessert/sweet1.jpg" class="slide">
+                <img src="dessert/sweet2.jpg" class="slide">
+                <img src="dessert/sweet3.jpg" class="slide">
+                <img src="dessert/sweet4.jpg" class="slide">
+                <img src="dessert/sweet5.jpg" class="slide">
+            </div>
+        </div>
+        
+        <!-- Buttons for the slides-->
+        <div class="button">
+            <button onclick="prevSlide()"><</button>
+            <button onclick="nextSlide()">></button>
+        </div>
+
+    <section> <!-- Section for Recipe-->
+    <div class="menu-bg">
+        <div class="recipe-box">
+            
+        </div>
+    </div>
+</section>
+
+<section> 
+    <div class="menu-bg">
+        <div class="recipe-box">
+    
+        </div>
+    </div>
+</section>
+
+<section> <!-- Section for Baking Tips-->
+    <div class="tips">
+        <h2>Baking Tips</h2>
+        <ul>
+            <li>Thoroughly read the recipe to understand all the steps.</li>
+            <li>Use fresh ingredients for the best flavor and texture.</li>
+            <li>Measure ingredients accurately using proper measuring tools.</li>
+            <li>Do Mise en Place, wherein you prepare all the ingredients, 
+                measure all the things that you need to measure, 
+                and chop all the things that need to be cut.</li>
+            <li>Clean and prep all the pans that you will be using, and preheat the oven if you will use it.</li>
+            <li>Let baked goods cool completely before frosting or serving.</li>
+        </ul>
+    </div>
+</section>
+
+<footer> <!-- Footer Section-->
+    <div class="info"> <!-- Information about the Website-->
+        <h2>About Warm Whisk</h2>
+        <p> Warm Whisk is a delightful collection of dessert 
+            recipes all around the world, crafted for both home 
+            bakers and pastry enthusiasts. Each recipe is carefully 
+            curated to bring sweetness and joy to your kitchen, 
+            from classic favorites to inventive treats. This website 
+            shows clear instructions to guide you through every step of the 
+            baking process. Warm Whisk invites you to explore the art of 
+            baking through our diverse recipes.
+        </p>
+    </div>
+</footer>
+</main>
+</html>
